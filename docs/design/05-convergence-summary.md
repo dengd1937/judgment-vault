@@ -98,29 +98,26 @@ Obsidian 链接必须带关系词。
 6. 信息不足时不能把推测写成事实。
 7. 长材料处理必须说明已覆盖范围和未覆盖范围。
 
-## Portability Constraint
+## Platform
 
-正式 skill 必须同时适用于 Codex 和 Claude Code。
+正式 skill 仅适用于 Claude Code。
 
 核心约束：
 
 ```text
-skill 的核心能力必须是 Markdown / 文件系统协议；
-Codex、Claude Code 只是执行者。
+skill 的核心能力是 Markdown / 文件系统协议；
+Claude Code 是执行者。
 ```
 
 设计原则：
 
-1. 不依赖 Codex 专有 tool。
-2. 不假设一定存在 MCP、浏览器、联网能力或特定 IDE。
-3. 不要求特定命令行工具；`rg`、`find` 等只能作为可选加速。
-4. 所有核心流程都必须能通过读写 Markdown 文件完成。
-5. 使用相对 vault 路径，不绑定某台机器的绝对路径。
-6. 模板、目录、frontmatter、Human Decision、Routing Rules 必须写在 skill 文档中。
-7. AI 执行前应识别当前环境能力，并在工具不可用时降级到本地文件或用户提供材料。
-8. 无法联网或无法抓取外部来源时，允许用户先把材料放入 `raw/`，再执行 triage / promote。
+1. 所有核心流程都必须能通过读写 Markdown 文件完成。
+2. 模板、目录、frontmatter、Human Decision、Routing Rules 必须写在 skill 文档中。
+3. AI 执行前应识别当前环境能力，并在工具不可用时降级到本地文件或用户提供材料。
+4. 无法联网或无法抓取外部来源时，允许用户先把材料放入 `raw/`，再执行 triage / promote。
+5. 可利用 Claude Code 增强能力（Web Search、MCP Web Reader、Context7、Playwright）加速 ingest 和 JP review 流程。
 
-这意味着后续实现时，skill 文档本身应该是权威协议，而不是某个平台上的脚本或 API。
+这意味着 skill 文档本身是权威协议，而不是某个平台上的脚本或 API。
 
 ## Ready For Skill Creation
 

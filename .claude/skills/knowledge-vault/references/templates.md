@@ -1,6 +1,6 @@
-# Templates
+# 模板
 
-Use these templates when creating or updating vault notes. Preserve the frontmatter shape and required sections.
+创建或更新 vault 笔记时使用以下模板。保持 frontmatter 结构和必要章节不变。
 
 ## Raw Meta
 
@@ -35,27 +35,27 @@ updated: <YYYY-MM-DD>
 
 ### What is this about?
 
-<AI generated>
+<AI 生成>
 
 ### Potential Decision Relevance
 
-<AI generated>
+<AI 生成>
 
 ### Possible New Judgment Dimensions
 
-<AI generated>
+<AI 生成>
 
 ### Evidence Signals
 
-<AI generated>
+<AI 生成>
 
 ### Counterexample Value
 
-<AI generated>
+<AI 生成>
 
 ### Suggested Action
 
-<AI suggestion: keep raw / promote to Source Review / promote to Comparison / promote to Decision Log / discard>
+<AI 建议：keep raw / promote to Source Review / promote to Comparison / promote to Decision Log / discard>
 
 ## Human Decision
 
@@ -65,7 +65,7 @@ updated: <YYYY-MM-DD>
 
 ### Reason
 
-<user fills>
+<用户填写>
 ```
 
 ## Source Review
@@ -87,7 +87,7 @@ updated: <YYYY-MM-DD>
 
 ## Source
 
-<source link, file path, project address, paper info, or conversation id>
+<来源链接、文件路径、项目地址、论文信息或会话标识。>
 
 ## Source Type
 
@@ -95,39 +95,39 @@ updated: <YYYY-MM-DD>
 
 ## Problem
 
-<What problem does this source discuss or solve?>
+<这个来源主要讨论或解决什么问题？>
 
 ## Core Claim
 
-<What is the source's most important claim, design argument, or conclusion?>
+<它最重要的观点、设计主张或结论是什么？>
 
 ## Key Insights
 
-<Insights useful for future technical judgment.>
+<对未来技术判断有用的洞见。>
 
 ## Assumptions
 
-<What assumptions must hold for the source's claim to be valid?>
+<这个来源默认成立的前提是什么？>
 
 ## Limits
 
-<Where might it not hold? What are the obvious limits?>
+<它在哪些场景下可能不成立，或者有哪些明显局限？>
 
 ## Decision Relevance
 
-<Which future technical choices should refer to this source?>
+<未来做哪些技术选择时应该参考它？>
 
 ## Evidence Quality
 
-<Evaluate evidence: experiments, production experience, code, issue discussion, counter-evidence, etc.>
+<你如何评价这个来源的可信度？例如实验、生产经验、代码实现、issue 讨论、反方证据。>
 
 ## Related Knowledge
 
-<Relationship-word links to Decision Logs, Comparisons, or Judgment Patterns.>
+<关联的 Decision Log、Comparison 或 Judgment Pattern。必须使用关系词。>
 
 ## Confidence Rationale
 
-<Why is the current confidence level appropriate? What evidence would raise or lower it?>
+<为什么当前 confidence 是这个等级？缺什么证据会提升或降低它？>
 ```
 
 ## Comparison
@@ -149,39 +149,39 @@ updated: <YYYY-MM-DD>
 
 ## Problem
 
-<What shared problem do these options solve?>
+<这组方案共同要解决什么问题？>
 
 ## Context
 
-<Applicable scenario and constraints.>
+<这个比较适用的场景和约束。>
 
 ## Options
 
-<Options being compared.>
+<参与比较的方案列表。>
 
 ## Evaluation Criteria
 
-<Most important judgment dimensions, ordered by importance.>
+<最关键的判断维度，按重要性排序。>
 
 ## Option Analysis
 
-<Analyze benefits, costs, applicability, and tradeoffs for each option. Use a matrix only when useful.>
+<逐个方案分析收益、代价和适用条件；需要时使用矩阵。>
 
 ## Recommendation
 
-<Which option is preferred under which conditions?>
+<在什么条件下倾向选择哪个方案？>
 
 ## Failure Modes
 
-<Common failure modes or misuse cases for each option.>
+<各方案常见失败方式或误用场景。>
 
 ## Evidence
 
-<Evidence supporting this comparison.>
+<支撑这个比较的来源。>
 
 ## Confidence Rationale
 
-<Why is the current confidence level appropriate? What evidence would raise or lower it?>
+<为什么当前 confidence 是这个等级？缺什么证据会提升或降低它？>
 ```
 
 ## Decision Log
@@ -203,47 +203,47 @@ updated: <YYYY-MM-DD>
 
 ## Problem
 
-<What technical problem needed to be solved?>
+<当时要解决的技术问题是什么？>
 
 ## Context
 
-<Project background and constraints: scale, time, people, existing system, team familiarity, runtime environment.>
+<项目背景和约束：规模、时间、人力、已有系统、团队熟悉度、运行环境等。>
 
 ## Options
 
-<Options considered.>
+<考虑过哪些方案？>
 
 ## Decision
 
-<Final choice. Must be confirmed by the user.>
+<最终选择了什么？必须由用户确认。>
 
 ## Rationale
 
-<Why was it chosen? What was the key judgment?>
+<为什么选它？最关键的判断依据是什么？>
 
 ## Rejected Options
 
-<Why were other options rejected?>
+<为什么没选其他方案？>
 
 ## Risks
 
-<Known risks or uncertainties at decision time.>
+<这个选择当时已知的风险或不确定性是什么？>
 
 ## Evidence
 
-<Supporting sources: papers, blogs, repos, issues, AI conversations, practical experience.>
+<支持这个判断的来源：论文、博客、开源项目、issue、AI 会话、实践经验等。>
 
 ## Outcome
 
-<Result. Use pending when newly created.>
+<后续结果如何？刚创建时写 pending，后续再更新。>
 
 ## Revisit Trigger
 
-<What should trigger reevaluation?>
+<什么情况出现时需要重新评估这个决策？>
 
 ## Confidence Rationale
 
-<Why is the current confidence level appropriate? What evidence would raise or lower it?>
+<为什么当前 confidence 是这个等级？缺什么证据会提升或降低它？>
 ```
 
 ## Judgment Pattern
@@ -265,43 +265,43 @@ updated: <YYYY-MM-DD>
 
 ## Pattern
 
-<Core reusable judgment rule.>
+<这条判断模式的核心规则。>
 
 ## Problem Class
 
-<Which class of technical problems does it apply to?>
+<它适用于哪一类技术问题？>
 
 ## Context
 
-<Background, scale, team, or system constraints where it usually holds.>
+<它通常在哪些背景、规模、团队或系统约束下成立？>
 
 ## Decision Signals
 
-<Signals or metrics to observe when making the judgment.>
+<判断时最应该观察的信号或指标。>
 
 ## Recommendation
 
-<How to choose under different signal combinations.>
+<在不同信号组合下，通常应该怎么选。>
 
 ## Counter-Signals
 
-<Signals showing the pattern does not apply or should reverse.>
+<哪些迹象说明这条模式不适用，或者结论应该反转？>
 
 ## Failure Modes
 
-<Common problems when this pattern is misused.>
+<误用这条模式时常见的问题。>
 
 ## Examples
 
-<Concrete supporting examples.>
+<支撑它的具体案例。>
 
 ## Evidence
 
-<Evidence sources.>
+<这条模式的证据来源。>
 
 ## Validity
 
-<Effective scope and time sensitivity.>
+<有效范围和时间敏感性。>
 
 ## Last Reviewed
 
@@ -309,9 +309,9 @@ updated: <YYYY-MM-DD>
 
 ## Review Trigger
 
-<What changes require rechecking?>
+<什么变化出现时必须重新检查。>
 
 ## Confidence Rationale
 
-<Why is the current confidence level appropriate? What evidence would raise or lower it?>
+<为什么当前 confidence 是这个等级？缺什么证据会提升或降低它？>
 ```

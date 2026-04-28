@@ -1,4 +1,0 @@
-interface:
-  display_name: "Knowledge Vault"
-  short_description: "Markdown vault for technical judgment"
-  default_prompt: "Use $knowledge-vault to ingest materials, triage raw sources, promote notes, and maintain judgment patterns."

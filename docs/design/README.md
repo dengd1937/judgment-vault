@@ -1,6 +1,6 @@
 # Knowledge Vault Design
 
-这个目录保存知识库与后续 Codex/Claude skill 的设计草稿。
+这个目录保存知识库与 Claude Code skill 的设计草稿。
 
 当前目标不是创建一个普通收藏夹，而是建立一个用于提升技术判断力的知识系统。系统重点沉淀：
 

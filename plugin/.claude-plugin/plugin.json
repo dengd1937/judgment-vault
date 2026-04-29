@@ -1,0 +1,12 @@
+{
+  "name": "judgment-vault",
+  "description": "Markdown knowledge vault for technical judgment. Ingest, triage, promote materials and generate Judgment Patterns.",
+  "author": {
+    "name": "Stephen D Deng"
+  },
+  "homepage": "https://github.com/dengd1937/judgment-vault",
+  "repository": "https://github.com/dengd1937/judgment-vault",
+  "license": "MIT",
+  "keywords": ["knowledge-management", "technical-judgment", "decision-log", "judgment-pattern"],
+  "skills": "./skills/"
+}

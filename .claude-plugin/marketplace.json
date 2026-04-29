@@ -1,0 +1,21 @@
+{
+  "name": "judgment-vault",
+  "description": "Markdown knowledge vault for technical judgment — ingest materials, generate triage, promote to structured notes, and build Judgment Patterns.",
+  "owner": {
+    "name": "Stephen D Deng",
+    "email": "dengd1937@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "judgment-vault",
+      "source": "./plugin",
+      "description": "Knowledge vault skill for technical judgment. Provides /judgment-vault commands: init, ingest, triage, promote, jp, review.",
+      "author": {
+        "name": "Stephen D Deng"
+      },
+      "homepage": "https://github.com/dengd1937/judgment-vault",
+      "license": "MIT",
+      "keywords": ["knowledge-management", "technical-judgment", "decision-log"]
+    }
+  ]
+}

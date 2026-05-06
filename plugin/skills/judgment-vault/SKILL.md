@@ -1,8 +1,8 @@
 ---
-name: judgment-vault
+name: quill
 description: >
   Markdown knowledge vault for technical judgment. Use when the user invokes
-  /judgment-vault to: ingest materials (papers, blogs, repos, AI conversations,
+  /quill to: ingest materials (papers, blogs, repos, AI conversations,
   cases), generate triage for raw items, promote to Source Reviews / Comparisons
   / Decision Logs, generate or update Judgment Patterns, review existing
   Judgment Patterns.
@@ -64,7 +64,7 @@ Vault 根目录固定为 `~/judgment-vault/`。本 skill 中所有路径都相�
 
 Vault 必须初始化后才能使用。先运行 `init`。
 
-如果调用了命令但 `~/judgment-vault/` 不存在，提示用户先运行 `/judgment-vault init`。
+如果调用了命令但 `~/judgment-vault/` 不存在，提示用户先运行 `/quill init`。
 
 ## 命令路由
 

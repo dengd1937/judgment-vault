@@ -1,5 +1,5 @@
 {
-  "name": "judgment-vault",
+  "name": "quill",
   "description": "Markdown knowledge vault for technical judgment — ingest materials, generate triage, promote to structured notes, and build Judgment Patterns.",
   "owner": {
     "name": "Stephen D Deng",
@@ -7,9 +7,9 @@
   },
   "plugins": [
     {
-      "name": "judgment-vault",
+      "name": "quill",
       "source": "./plugin",
-      "description": "Knowledge vault skill for technical judgment. Provides /judgment-vault commands: init, ingest, triage, promote, jp, review.",
+      "description": "Knowledge vault skill for technical judgment. Provides /quill commands: init, ingest, triage, promote, jp, review.",
       "author": {
         "name": "Stephen D Deng"
       },
